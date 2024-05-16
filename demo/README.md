@@ -32,18 +32,18 @@ The Stock Demo API service is designed to manage stock-related operations within
       - **from (optional):** The start date (defaults to the current date if not specified).
       - **to (optional):** The end date (defaults to the current date if not specified).
 
-##Validation
+## Validation
 The **Validation** component ensures that user inputs meet the expected format and logical constraints, enhancing the reliability of the API.
-###Methods
+### Methods
 - **textValidation:** Checks if the text parameter is neither blank nor null. Throws an error with 400 status code if the validation fails.
 - **dateValidation:** Validates the format and logical consistency of date inputs. It ensures the dates are in correct format and the end date is not before the start date. Throws an error with 400 status code if any condition is not met.
-##Exception Handling
+## Exception Handling
 The classes employ robust exception handling to manage errors effectively. Errors such as incorrect data formats, logical inconsistencies in date ranges trigger specific exceptions and unexpected server errors which are communicated back to the client with appropriate HTTP status codes and error messages.
 
-##Application Setup and Testing
-###Development Environment
+## Application Setup and Testing
+### Development Environment
 The application is developed using Java 17 and Spring Boot, ensuring a modern, robust backend service. The source code is available on GitHub, allowing for version control and collaborative development.
-###Running the Application
+### Running the Application
 The application can be executed in two ways:
 1. From Source Code:
    - Clone the repository from GitHub.
