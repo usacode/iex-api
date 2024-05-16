@@ -35,6 +35,7 @@ class IexServiceTest {
         iexService = new IexService(serviceConfig, restTemplate);
     }
 
+    @SuppressWarnings("unchecked")
     @Test
     public void testGetHistoricalPrices() {
         // Mock data

@@ -45,12 +45,12 @@ The classes employ robust exception handling to manage errors effectively. Error
 The application is developed using Java 17 and Spring Boot, ensuring a modern, robust backend service. The source code is available on GitHub, allowing for version control and collaborative development.
 ### Running the Application
 The application can be executed in two ways:
-1. From Source Code:
+1. ***From Source Code:***
    - Clone the repository from GitHub.
    - Navigate to the project directory and execute the application using the command: ***java -jar run.***
-2. Using a Pre-built Jar:
+2. ***Using a Pre-built Jar:***
    - Download the JAR file from the project's GitHub repository.
-   - Run the application by executing: ***java -jar [JarFileName].jar***  in your terminal or command prompt, where ***[JarFileName]*** is the name of the downloaded JAR file.
+   - Run the application by executing: ***java -jar demo-0.0.1.jar***  in your terminal or command prompt, where ***[demo-0.0.1.jar]*** is the name of the downloaded JAR file.
 ### Testing the Application
 The application provides a Swagger UI, which is a user-friendly interface for testing API endpoints interactively. This can be accessed once the application is running, usually via the URL path ***http://localhost:8080/demo/swagger-ui.html***.
 
@@ -67,13 +67,13 @@ Testing the Backend with the React App
 The React application is designed to communicate with the backend, serving as a practical tool for real-world testing of the backend functionalities.
   
 To test the backend using the React app:
-1. Clone the Frontend Repository:
+1. ***Clone the Frontend Repository:***
     - Obtain the repository URL: https://github.com/usacode/react-iex from GitHub and use ***git clone*** to download the React application to your local machine.
-2. Setup and Run:
+2. ***Setup and Run:***
     - Navigate to the project directory.
     - Run ***npm install*** to install all required dependencies.
     - Start the application using ***npm start***, which will typically host the frontend app on ***localhost:3000***.
-3. Interact with the Backend:
+3. ***Interact with the Backend:***
     - Ensure that the backend application is running locally at ***localhost:8080***.
     - Use the React app's interface to perform actions that trigger API calls to the backend, verifying the interactions and responses directly through the frontend.
 
