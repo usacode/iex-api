@@ -2,10 +2,13 @@
 
 ## Overview
 The Stock Demo API service is designed to manage stock-related operations within a RESTful service environment. It exposes endpoints for calculating daily returns, alpha values, and volatility of stock symbols over specified date ranges. This App implements components to handle specific calculations and validations, ensuring robust and accurate data handling.
-## Main Services
+
+Additionally, the service integrates with the IEX API to fetch historical stock prices. This integration allows the application to access reliable and up-to-date stock market data, which is crucial for accurate financial calculations and analysis.
+## Main Components
 - **IAlphaService:** Provides methods for calculating alpha values for stock symbols against benchmarks.
 - **IReturnService:** Offers functionality to calculate daily returns for stock symbols.
 - **IVolatilityService:** Handles the calculation of volatility for stock symbols.
+- **IIexService:** Responsible for making external requests to the IEX API to fetch historical stock prices.
 - **IValidationService:** Validates text and date inputs to prevent errors in data processing.
 
 ## API Endpoints
@@ -76,4 +79,3 @@ To test the backend using the React app:
 3. ***Interact with the Backend:***
     - Ensure that the backend application is running locally at ***localhost:8080***.
     - Use the React app's interface to perform actions that trigger API calls to the backend, verifying the interactions and responses directly through the frontend.
-
